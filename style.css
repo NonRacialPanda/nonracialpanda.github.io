@@ -10,12 +10,10 @@
 }
 
 .top-menu {
-    
-    /* Add picture of Sd beach as backgroun */
-    background-color: rgb(23, 97, 161);
 
+    background-color: rgb(87, 140, 185);
     color: rgb(255, 255, 255);
-    font-family: Helvetica;
+    font-family: Arial;
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -24,10 +22,18 @@
 }
 
 .header {
-    background-color: #7FB3D5;
-    color: #fff;
+
+    background-image: url(images/header-background.jpeg);
+    background-position: center;
+    background-size: cover;
+
+    text-shadow: 2px 2px #00000049;
+
+    color: #ffffff;
+
     margin-bottom: 2rem;
     padding: 2rem 1rem;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,6 +42,6 @@
 
 .header-text {
     margin-left: 25px;
-    font-family: Helvetica, sans-serif;
-    font-size: x-large;
+    font-family: Arial;
+    font-size: 2rem;
 }
