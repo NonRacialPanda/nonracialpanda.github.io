@@ -1,3 +1,6 @@
+
+/* MOBILE TRANSITION */
+
 @media screen and (max-width: 1200px) {
 
     #hamburger-nav {
@@ -11,4 +14,9 @@
     #header-text {
         font-size: 1.5rem;
     }
+
+    #profile-text {
+        font-size: 1rem;
+    }
+    
 }

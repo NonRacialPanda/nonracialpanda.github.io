@@ -16,7 +16,7 @@ html {
 }
 
 p {
-    color: rgb(247, 241, 160);
+    color: rgb(1, 1, 1);
 }
 
 
@@ -155,13 +155,17 @@ a:hover {
     width: 20%;
     border-radius: 50%;
     height: 20%;
-    margin-left: 10px;
     border: 8px solid rgb(255, 255, 255);
 
 }
 
 #profile-name {
     font-weight: 500;
+}
+
+#profile-text {
+    color: rgb(245, 239, 167);
+    font-size: 1.5rem;
 }
 
 .header {
@@ -171,15 +175,14 @@ a:hover {
     background-size: cover;
     text-shadow: 2px 2px #00000049;
     color: #ffffff;
-    margin-bottom: 2rem;
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 100px;
 }
 
 #header-text {
     margin-left: 25px;
     font-size: 2rem;
+    margin-right: 0px;
 }
