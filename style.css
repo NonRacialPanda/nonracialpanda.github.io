@@ -22,14 +22,15 @@ p {
 
 /* TRANSITION */
 
-a, .btn {
+a,
+.btn {
     transition: all 300ms ease;
 }
 
 
 /* DESKTOP NAV */
 
-nav, 
+nav,
 .nav-links {
     display: flex;
     background-color: rgb(87, 140, 185);
@@ -130,9 +131,11 @@ a:hover {
 .hamburger-icon.open span:first-child {
     transform: rotate(45deg) translate(10px, 5px)
 }
+
 .hamburger-icon.open span:nth-child(2) {
     opacity: 0;
 }
+
 .hamburger-icon.open span:last-child {
     transform: rotate(-45deg) translate(10px, -5px)
 }
@@ -140,9 +143,11 @@ a:hover {
 .hamburger-icon span:first-child {
     transform: none;
 }
+
 .hamburger-icon span:first-child {
     opacity: 1;
 }
+
 .hamburger-icon span:first-child {
     transform: none;
 }
@@ -150,11 +155,10 @@ a:hover {
 
 /* SPLASH & PROFILE */
 
-
 .profile {
     width: 20%;
     border-radius: 50%;
-    height: 20%;
+    height: auto;
     border: 8px solid rgb(255, 255, 255);
 
 }
@@ -169,7 +173,6 @@ a:hover {
 }
 
 .header {
-
     background-image: url(images/splash2.jpg);
     background-position-y: 10%;
     background-size: cover;
@@ -185,4 +188,39 @@ a:hover {
     margin-left: 25px;
     font-size: 2rem;
     margin-right: 0px;
+}
+
+/* SECTION */
+
+section {
+    margin: 3rem;
+}
+
+/* ABOUT SECTION */
+
+#about {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutpic {
+    height: 20%;
+    width: 20%;
+    border: 8px solid rgb(253, 251, 236);
+}
+
+#about-text {
+    margin-left: 1rem;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 1rem;
+    font-weight: 400;
+    width: 4rem;
+    border-radius: 2rem;
 }
